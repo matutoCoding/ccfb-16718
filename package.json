@@ -1,0 +1,29 @@
+{
+  "name": "grape-canopy-light-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "浏览器内葡萄架式冠层 WebGPU 受光推演与果穗晒伤评估系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "three": "^0.177.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/three": "^0.177.0",
+    "@webgpu/types": "^0.1.60",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "tailwindcss": "^4.1.10",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^2.2.10"
+  }
+}
